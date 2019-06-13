@@ -1,12 +1,8 @@
-# WD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private
+# Lab Exercises
 
-## Remote lab environment access
+This course provides hands-on experience with IBM Event Streams on IBM Cloud Private. The lab exercises in this course are intended to run in a remote environment where IBM Cloud Private is already installed and configured.
 
-<p>This course provides hands-on experience with IBM Event Streams on IBM Cloud Private. The lab exercises in this folder are intended to run in a remote environment where IBM Cloud Private is already installed and configured.
-
-For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided by the Digital Learning Platform (DLP).
-
-<h2>Lab Exercises</h2>
+For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided by the Digital Learning Platform (DLP). 
 
 * [Lab 1: Install Event Streams on IBM Cloud Private](Labs/Lab01-install.md)
 * [Lab 2: Configure and explore Event Streams; create and test a Topic](Labs/Lab02-config.md)

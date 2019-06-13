@@ -1,8 +1,12 @@
-This folder contains PDF copies of all student materials.
+This folder contains PDF copies of all student materials needed for the course, WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private. 
+
+This course provides hands-on experience with IBM Event Streams on IBM Cloud Private. The lab exercises in this course are intended to run in a remote environment where IBM Cloud Private is already installed and configured.
+
+For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided by the Digital Learning Platform (DLP). 
 
 <h2>Units/Presentations</h2>
 
-[Course introduction](U00_CourseIntro.pdf)
+* [Course introduction](U00_CourseIntro.pdf)
 
 * [Unit 1: Introduction to Kafka](U01_IntroKafka.pdf)
 
