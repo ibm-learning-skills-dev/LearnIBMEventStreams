@@ -1,17 +1,12 @@
-# WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private
+The material in this repository is intended to support students who are enrolled in the course, WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private.
 
-This is the repository for IBM Event Streams curriculum development.  
+To enroll in the course, go to the [IBM Skills Gateway](https://www.ibm.com/services/learning/ites.wss/zz-en).
 
 ## Remote lab environment access
 
 This course provides hands-on experience with IBM Event Streams on IBM Cloud Private. The lab exercises in this course are intended to run in a remote environment where IBM Cloud Private is already installed and configured.
 
 For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided by the Digital Learning Platform (DLP). 
-
-Instructors must go through proper channels to request provisioning of the lab environment for classroom deliveries.
-
-## Student materials
-All of the materials that students need for the course are contained in the PDFs folder here, and they are also accessible via [https://github.com/ibm-learning-skills-dev/LearnIBMEventStreams](https://github.com/ibm-learning-skills-dev/LearnIBMEventStreams). 
 
 ## Course Outline
 
