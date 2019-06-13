@@ -1,4 +1,4 @@
-The material in this repository is intended to support students who are enrolled in the course, WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private.
+The material in this repository is intended to support students who are enrolled in the course, **WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private**.
 
 To enroll in the course, go to the [IBM Skills Gateway](https://www.ibm.com/services/learning/ites.wss/zz-en).
 
