@@ -12,19 +12,19 @@ For instructor-led deliveries, the instructor provides the URL for students to a
 
 ### Units/Presentations
 
-Course introduction [(PPT)](Unit-Presentations/U00_CourseIntro.pptx) [(PDF)](PDFs/U00_CourseIntro.pdf)
+[Course introduction](PDFs/U00_CourseIntro.pdf)
 
-* Unit 1: Introduction to Kafka [(PPT)](Unit-Presentations/U01_IntroKafka.pptx) [(PDF)](PDFs/U01_IntroKafka.pdf)
+* [Unit 1: Introduction to Kafka](PDFs/U01_IntroKafka.pdf)
  
-* Unit 2: IBM Event Streams overview [(PPT)](Unit-Presentations/U02_ESOverview.pptx) [(PDF)](PDFs/U02_ESOverview.pdf)
+* [Unit 2: IBM Event Streams overview](PDFs/U02_ESOverview.pdf)
 
-* Unit 3: Getting started with Event Streams [(PPT)](Unit-Presentations/U03_GettingStarted.pptx) [(PDF)](PDFs/U03_GettingStarted.pdf)
+* [Unit 3: Getting started with Event Streams](PDFs/U03_GettingStarted.pdf)
 
-* Unit 4: Using Kafka Connectors for IBM MQ [(PPT)](Unit-Presentations/U04_Connectors.pptx) [(PDF)](PDFs/U04_Connectors.pdf)
+* [Unit 4: Using Kafka Connectors for IBM MQ](PDFs/U04_Connectors.pdf)
 
-* Unit 5: Geo-replication [(PPT)](Unit-Presentations/U05_GeoReplication.pptx) [(PDF)](PDFs/U05_GeoReplication.pdf)
+* [Unit 5: Geo-replication](PDFs/U05_GeoReplication.pdf)
 
-* Unit 6: Monitoring logs [(PPT)](Unit-Presentations/U06_Monitor.pptx) [(PDF)](PDFs/U06_Monitor.pdf)
+* [Unit 6: Monitoring logs](PDFs/U06_Monitor.pdf)
 
 
 ### Lab exercises
