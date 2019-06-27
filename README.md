@@ -1,4 +1,6 @@
-The material in this repository is intended to support students who are enrolled in the course, **WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private**.
+# WD107/ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private
+
+The material in this repository is intended to support students who are enrolled in the course, **WD107 or ZD107 Deploying Event-Driven Applications with IBM Event Streams on IBM Cloud Private**.
 
 To enroll in the course, go to the [IBM Skills Gateway](https://www.ibm.com/services/learning/ites.wss/zz-en).
 
@@ -6,7 +8,7 @@ To enroll in the course, go to the [IBM Skills Gateway](https://www.ibm.com/serv
 
 This course provides hands-on experience with IBM Event Streams on IBM Cloud Private. The lab exercises in this course are intended to run in a remote environment where IBM Cloud Private is already installed and configured.
 
-For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided by the Digital Learning Platform (DLP). 
+For instructor-led deliveries, the instructor provides the URL for students to access this environment. For self-paced virtual courses (SPVC), the URL is provided in the course on the Digital Learning Platform (DLP). 
 
 ## Course Outline
 
@@ -36,3 +38,4 @@ For instructor-led deliveries, the instructor provides the URL for students to a
 * [Lab 5: Use Kafka Sink Connector for IBM MQ](Labs/Lab05-sinkconnect.md)
 * [Lab 6: Monitor logs](Labs/Lab06-monitor.md)
 
+Please see [Terms of Use](https://www.ibm.com/legal), and [Copyright](Copyright.md) and [trademark information](Trademarks.md).
