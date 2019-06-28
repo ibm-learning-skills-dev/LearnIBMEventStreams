@@ -28,6 +28,8 @@ For instructor-led deliveries, the instructor provides the URL for students to a
 
 * [Unit 6: Monitoring logs](PDFs/U06_Monitor.pdf)
 
+[Course summary](PDFs/U07_CourseSummary.pdf)
+
 
 ### Lab exercises
 
