@@ -25,7 +25,7 @@ You can install a Helm chart by using a command-line interface (CLI), or by usin
 	
 5. After synchronization is complete, click **Catalog** to display the list of Helm charts. 
 
-6. Click the **Integration** category, and then click **ibm-evenstreams-prod**.
+6. Click the **Integration** category, and then click **ibm-eventstreams-prod**.
 
  ![Screen capture of ICP catalog page](../Images/lab02-config2.png)
 
@@ -168,7 +168,7 @@ mvn install liberty:run-server
 	
 13. In a new browser tab, enter the following URL:
 
-	`http://localhost:9080/elabtester`
+	`http://localhost:9080/eslabtester`
 	
 	The Starter Application screen is split, with a producer on the left and a consumer on the right. Note that the consumer already started to listen for messages.
 	
@@ -191,6 +191,7 @@ mvn install liberty:run-server
 17. You can leave the application running in the terminal window because you use it again in a later lab exercise, but if you need to stop it, press Ctrl-C in the window. You can start it again later by running the `export` and `mvn` commands from a previous step in this section. 
 
 ### End of exercise
+
 <!--June 2019 Edition
 
 **Notices**
