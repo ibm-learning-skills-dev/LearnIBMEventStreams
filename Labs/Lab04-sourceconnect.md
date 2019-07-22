@@ -10,7 +10,34 @@ You must complete Labs 1-3 before proceeding with this lab.
 
 ## Step 1. Install MQ in IBM Cloud Private
 
-### A. Create a Persistent Volume (PV)
+### A. Create a secret to store queue manager credentials
+When using the IBM MQ Advanced for Developers certified container, you must create a secret in the target namespace. This secret must contain the admin user password and, optionally, the app user password to use for messaging.
+
+This can be done either by using the ICP Console or the command line interface. The following steps use the console. 
+
+The secret is a key:value pair with the value being a base64 encoded password string. 
+
+1. Convert the admin user password to base64 by entering the following command in a terminal window:
+
+ `$ echo -n admin | base64`
+ 
+ Copy the output to the clipboard or to a file.
+ 
+2. In the IBM Cloud Private console, select Configuration > Secrets from the menu.
+3. Click **Create Secret**.
+4. Enter a name for the secret, for example, `mq-secret`.
+5. Select **default** as the target namespace. 
+
+ ![Screen capture of ICP console Create PV button](../Images/lab04-MQsecret1.png)
+
+6. Click the Data tab, and enter a name for the password, for example, `adminpw`, and paste the encoded password into the value field.
+
+ ![Screen capture of ICP console Create PV button](../Images/lab04-MQsecret2.png) 
+ 
+7. Click **Create**. 
+
+
+### B. Create a Persistent Volume (PV)
 
 This example requires a Persistent Volume (PV) that uses ReadWriteOnce (RWO) mode to store data in IBM Cloud Private. That means that only one node can mount the PV with read/write permissions. 
 
@@ -55,7 +82,7 @@ This example requires a Persistent Volume (PV) that uses ReadWriteOnce (RWO) mod
  
 8. Verify creation of the host path **/home/student/icpvols/mqvols/vol1**. 
 
-### B. Install the MQ Helm chart
+### C. Install the MQ Helm chart
 
 1. In the IBM Cloud Private console, select **Manage > Helm Repositories** from the menu.
 
@@ -75,7 +102,7 @@ This example requires a Persistent Volume (PV) that uses ReadWriteOnce (RWO) mod
 
  ![Screen capture of ICP console Configure button](../Images/lab04-sourceconnect7.png)
  
-6. Expand the **Parameters** section, scroll down to Service, and select NodePort for the Service type.
+6. Expand the **All parameters** section, scroll down to **Service**, and select **NodePort** for the Service type.
 
  ![Screen capture of ICP console Service type](../Images/lab04-sourceconnect8.png)
  
@@ -83,9 +110,9 @@ This example requires a Persistent Volume (PV) that uses ReadWriteOnce (RWO) mod
 
  ![Screen capture of ICP console Security checkbox](../Images/lab04-sourceconnect23.png)
 
-8. Scroll down to **Queue manager** and enter **QM1** for the Queue manager name, and **admin** for the password. 
+8. Scroll down to **Queue manager** and enter **QM1** for the Queue manager name, the secret name (my-secret) for the **Password secret name**, and the password name (adminpw) for the **Admin password key**. 
 
- ![Screen capture of ICP console Queue manager name](../Images/lab04-sourceconnect18.png)
+ ![Screen capture of ICP console Queue manager name](../Images/lab04-MQsecret4.png)
 
 9. Accept the remaining default values and click **Install**.
 
@@ -115,7 +142,7 @@ This example requires a Persistent Volume (PV) that uses ReadWriteOnce (RWO) mod
  
  You can find more details about using `kubectl` in the [IBM Cloud Private Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSBS6K/product_welcome_cloud_private.html), and in the [Kubernetes documentation](https://kubernetes.io/docs/home/). 
  
-### C. Open the MQ console
+### D. Open the MQ console
  
 1. In the IBM Cloud Private console, go to **Network Access > Services**.
 
@@ -469,7 +496,7 @@ mvn install liberty:run-server
 7. You can also stop the Kafka Connect worker (press Ctrl-C in its terminal window). You can leave the eslabtester application running because you use it again in the next exercise. 
 
 ### End of exercise
-<!--June 2019 Edition
+<!-- June 2019 Edition
 
 **Notices**
 
